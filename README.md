@@ -23,27 +23,6 @@ The tutorial investigates three key hyperparameters through controlled experimen
 
 ---
 
-## Repository Structure
-
-```
-gradient-boosting-tutorial/
-│
-├── gradient_boosting_tutorial.ipynb   # Full Jupyter notebook with all experiments
-├── gradient_boosting_tutorial.pdf     # PDF tutorial report (<2000 words)
-├── gradient_boosting_tutorial.docx    # Word document version of the report
-│
-├── figures/                           # All generated figures
-│   ├── fig_dataset_overview.png
-│   ├── fig_n_estimators.png
-│   ├── fig_tree_depth.png
-│   ├── fig_regularisation.png
-│   └── fig_final_eval.png
-│
-├── README.md                          # This file
-└── LICENSE                            # MIT License
-```
-
----
 
 ## Getting Started
 
@@ -69,7 +48,7 @@ cd gradient-boosting-tutorial
 jupyter notebook gradient_boosting_tutorial.ipynb
 ```
 
-Run all cells from top to bottom. The notebook will automatically download the Breast Cancer Wisconsin dataset via `sklearn.datasets` — no manual data download required.
+
 
 ---
 
@@ -125,10 +104,3 @@ This tutorial was designed with accessibility in mind:
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details. You are free to use, modify, and distribute this code with attribution.
 
----
-
-## Author
-
-**[Your Name]**  
-[Your Institution / Course Name]  
-[Your Email (optional)]
